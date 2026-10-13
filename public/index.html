@@ -260,6 +260,9 @@
       -webkit-tap-highlight-color: transparent;
     }
 
+    /* Botones ocultos por ahora: para volver a mostrarlos, quita `hidden` */
+    .card[hidden] { display: none; }
+
     .card-inner {
       position: relative;
       display: flex;
@@ -551,7 +554,8 @@
     </header>
 
     <nav class="links" aria-label="Enlaces del evento">
-      <a class="card" style="--d:.5s" href="https://photoalbumapp.pages.dev/" target="_blank" rel="noopener">
+      <!-- OCULTO por ahora (fotos de la edición 25/30/35). Para habilitarlo, quita `hidden`. -->
+      <a class="card" hidden style="--d:.5s" href="https://photoalbumapp.pages.dev/" target="_blank" rel="noopener">
         <span class="card-inner">
           <span class="emoji" aria-hidden="true">📸</span>
           <span class="card-text">
@@ -562,7 +566,8 @@
         </span>
       </a>
 
-      <a class="card" style="--d:.62s" href="/clases-del-recuerdo.webp" target="_blank" rel="noopener">
+      <!-- OCULTO por ahora (imagen de la edición 25/30/35). Para habilitarlo, quita `hidden`. -->
+      <a class="card" hidden style="--d:.62s" href="/clases-del-recuerdo.webp" target="_blank" rel="noopener">
         <span class="card-inner">
           <span class="emoji" aria-hidden="true">🎓</span>
           <span class="card-text">
