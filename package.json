@@ -1,0 +1,13 @@
+{
+  "name": "exatec-regreso-a-casa-5-20",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Link-in-bio landing page for the EXATEC \"Regreso a Casa\" alumni reunion, 5th/10th/15th/20th anniversary edition (Tec de Monterrey, Campus Monterrey). Static site for Cloudflare Pages.",
+  "scripts": {
+    "dev": "wrangler pages dev ./public",
+    "deploy": "wrangler pages deploy ./public"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
